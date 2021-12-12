@@ -1,0 +1,148 @@
+
+* {
+    margin:0;
+    padding:0;  
+  }
+  
+
+  body {
+    position: relative;
+    font-family: "futura", sans-serif;
+    font-size: 20px;
+    background-color: #FDF8F5;
+    color: #4F4846;
+  }
+  
+  h1,
+  h2 {
+    color:rgb(79, 0, 143);
+    margin: 20px;
+  }
+  
+  main {
+    padding: 60px 0;
+  }
+  
+  li {
+    display: inline;
+    padding: 0px 20px;
+    text-decoration: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #FDF8F5;
+  }
+  
+  header,
+  footer {
+    height: 70px;
+    width: 100%;
+    line-height: 60px;
+    background-color:rgb(79, 0, 143)
+  }
+  
+  header {
+    position: absolute;
+    margin-top:0;
+   
+  }
+
+  
+  
+  
+  footer {
+    position: absolute;
+    margin-top: 0;
+    bottom: 0;
+    color:rgb(161, 46, 255);    
+  }
+  
+  figure {
+    position:relative;
+    
+    width:100%;
+
+  }
+
+  p{
+    position:absolute;
+    color:white;
+    font-size: 40px;
+    margin-left:800px;
+    margin-right:auto;
+    text-align:center;
+    bottom: 100px;
+    width: 600px;
+  }
+
+  .container{
+    position: relative;
+    text-align: center;
+
+  }
+
+  .floating-text{
+    position:absolute;
+    top: 200px;
+    left:800px;
+    
+
+  }
+  
+  section {
+    margin-bottom: 0;
+    padding: 20px 10px 40px 10px;
+    border-top: 3px solid #ffffff;
+    background-color:  #ffffff;
+  }
+  
+  form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 500px;
+    padding: 10px;
+    border: 5px solid rgb(79, 0, 143);
+    border-radius: 20px;
+  }
+  
+  label {
+    display: inline-block;
+    width: 100px;
+  }
+    
+  input, 
+  textarea {
+    box-sizing: border-box;
+    width: 300px;
+    border: 1px solid #4F4846;
+  }
+  
+  textarea {
+    vertical-align: top;
+    height: 60px;
+  }
+    
+  button {
+    height: 40px;
+    width: 120px;
+    margin: 10px;
+    background-color: rgb(79, 0, 143);
+    color: #FDF8F5;
+  }
+   
+  
+  .text-center {
+    text-align: center;
+  }
+
+  .text-body {
+    text-align:left
+
+  }
+
+  
+  
+  .text-right {
+    text-align: right;
+  }
